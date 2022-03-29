@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>biaodanhtml</title>
+    <style>
+        P {
+            font-size: 12px;
+            color: blue;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font: siz 3px 14px;
+            color: aquamarine;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table border="1">
+
+            <h1>表单元素</h1>
+            <form>
+                <tr>
+                    <td>
+                        账号：<input type="text" name="userName">
+                        <input type="submit" value="确定" name="submit"><br>
+                        <!-- type文本类型 txt -->
+                        密码：<input type="password" name="userPsd">
+                        <input type="reset" value="重置" name="submit">
+                        <!-- type 密码类型 -->
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    <br>
+    <div>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>
+                        <p>性别 &ndash; 男 <input type="radio" value="boy" name="gebder" checked="checked"> 女 <input type="radio" value="girl" name="gebder">
+                        </p>
+                        <p>爱好 &ndash; 音乐 <input type="checkbox" value="1" name="music" checked="checked"> 运动 <input type="checkbox" value="2" name="playting"> 体育 <input type="checkbox" value="3" name="sport">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>
+                        选项：
+                        <select>
+                            <option selected="selected">选项1</option>
+                            <option>选项2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>
+                        <textarea rows="50" cols="20">在这里输入内容......</textarea>
+                        <br>
+                        <input type="submit" value="确定">
+                        <input type="reset" value="重置">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
